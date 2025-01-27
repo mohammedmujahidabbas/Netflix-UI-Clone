@@ -207,12 +207,15 @@ html {
 }
 
 /* Style for 3rd section */
-.third {
+.assets.third {
   width: 80%;
   display: flex;
-  margin: 2rem auto;
-  align-content: center;
   justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 2rem auto;
+  position: relative;
+  padding: 4.5rem 0;
 }
 
 .third .asset-content {
@@ -389,6 +392,9 @@ footer button select option {
     width: 88%;
     height: 88%;
   }
+  .faq {
+    width: 80%;
+  }
   .faq .questions .question {
     padding: 20px;
     font-size: 20px;
@@ -405,6 +411,9 @@ footer button select option {
   .assets {
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  .faq {
+    width: 90%;
   }
   .faq .questions .question {
     padding: 20px;
